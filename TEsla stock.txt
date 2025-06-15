@@ -1,0 +1,15 @@
+📈 Tesla Stock Price Prediction Using LSTM
+🔍 Project Overview
+This project focuses on predicting the future stock price of Tesla Inc. (TSLA) using Long Short-Term Memory (LSTM) networks—a type of Recurrent Neural Network (RNN) ideal for time-series forecasting. We use historical stock price data from the last 720 days at an hourly interval, fetched using the yfinance API.
+
+🧰 Tools & Libraries
+Data Collection: yfinance
+Data Manipulation: pandas, numpy
+Visualization: matplotlib
+Machine Learning: TensorFlow Keras
+Evaluation Metrics: MAE, MSE, RMSE, R², MAPE
+
+📦 Dataset
+Ticker: TSLA (Tesla Inc.)
+Interval: 1 hour
+Period: 720 days
